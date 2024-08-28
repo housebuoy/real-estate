@@ -1,0 +1,222 @@
+[
+    {
+        "id": "1",
+        "name": "Seaside Serenity Villa",
+        "location": "Malibu, CA",
+        "price": "$1,200,000",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A stunning 4-bedroom, 3-bathroom villa with ocean views.",
+        "type": "Villa"
+    },
+    {
+        "id": "2",
+        "name": "Urban Chic Apartment",
+        "location": "New York, NY",
+        "price": "$750,000",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A modern 2-bedroom apartment in the heart of the city.",
+        "type": "Apartment"
+    },
+    {
+        "id": "3",
+        "name": "Countryside Cottage",
+        "location": "Austin, TX",
+        "price": "$450,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A charming 3-bedroom cottage with a large garden.",
+        "type": "Cottage"
+    },
+    {
+        "id": "4",
+        "name": "Mountain Retreat",
+        "location": "Aspen, CO",
+        "price": "$2,500,000",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A luxurious 5-bedroom retreat with stunning mountain views.",
+        "type": "Retreat"
+    },
+    {
+        "id": "5",
+        "name": "Beachfront Bungalow",
+        "location": "Santa Monica, CA",
+        "price": "$900,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A cozy 3-bedroom bungalow right on the beach.",
+        "type": "Bungalow"
+    },
+    {
+        "id": "6",
+        "name": "Modern Loft",
+        "location": "San Francisco, CA",
+        "price": "$1,000,000",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A stylish 2-bedroom loft with city skyline views.",
+        "type": "Loft"
+    },
+    {
+        "id": "7",
+        "name": "Historic Mansion",
+        "location": "New Orleans, LA",
+        "price": "$3,500,000",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A grand 6-bedroom mansion with historic charm.",
+        "type": "Mansion"
+    },
+    {
+        "id": "8",
+        "name": "Suburban Family Home",
+        "location": "Chicago, IL",
+        "price": "$600,000",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A spacious 4-bedroom home perfect for a family.",
+        "type": "Home"
+    },
+    {
+        "id": "9",
+        "name": "Luxury Condo",
+        "location": "Miami, FL",
+        "price": "$850,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A high-end 3-bedroom condo with ocean views.",
+        "type": "Condo"
+    },
+    {
+        "id": "10",
+        "name": "Rustic Farmhouse",
+        "location": "Napa Valley, CA",
+        "price": "$750,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300",
+        "description": "A rustic 3-bedroom farmhouse with a large vineyard.",
+        "type": "Farmhouse"
+    },
+    {
+        "id": "11",
+        "name": "Lakeview Cabin",
+        "location": "Lake Tahoe, NV",
+        "price": "$1,100,000",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "imageUrl": "https://via.placeholder.com/300?text=Lakeview+Cabin",
+        "description": "A cozy 4-bedroom cabin with breathtaking lake views.",
+        "type": "Cabin"
+    },
+    {
+        "id": "12",
+        "name": "Downtown Studio",
+        "location": "Portland, OR",
+        "price": "$400,000",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "imageUrl": "https://via.placeholder.com/300?text=Downtown+Studio",
+        "description": "A chic studio apartment in the heart of downtown.",
+        "type": "Studio"
+    },
+    {
+        "id": "13",
+        "name": "Tropical Villa",
+        "location": "Honolulu, HI",
+        "price": "$2,200,000",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "imageUrl": "https://via.placeholder.com/300?text=Tropical+Villa",
+        "description": "A stunning 5-bedroom villa with private beach access.",
+        "type": "Villa"
+    },
+    {
+        "id": "14",
+        "name": "Eco-Friendly Home",
+        "location": "Boulder, CO",
+        "price": "$950,000",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "imageUrl": "https://via.placeholder.com/300?text=Eco-Friendly+Home",
+        "description": "An eco-friendly 3-bedroom home with solar panels.",
+        "type": "Home"
+    },
+    {
+        "id": "15",
+        "name": "Penthouse Suite",
+        "location": "Las Vegas, NV",
+        "price": "$3,000,000",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "imageUrl": "https://via.placeholder.com/300?text=Penthouse+Suite",
+        "description": "A luxurious 4-bedroom penthouse with city views.",
+        "type": "Penthouse"
+    },
+    {
+        "id": "16",
+        "name": "Country Estate",
+        "location": "Charlottesville, VA",
+        "price": "$1,800,000",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "imageUrl": "https://via.placeholder.com/300?text=Country+Estate",
+        "description": "A grand 6-bedroom estate with sprawling grounds.",
+        "type": "Estate"
+    },
+    {
+        "id": "17",
+        "name": "City Loft",
+        "location": "Seattle, WA",
+        "price": "$800,000",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300?text=City+Loft",
+        "description": "A modern 2-bedroom loft with skyline views.",
+        "type": "Loft"
+    },
+    {
+        "id": "18",
+        "name": "Beach House",
+        "location": "Key West, FL",
+        "price": "$1,500,000",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "imageUrl": "https://via.placeholder.com/300?text=Beach+House",
+        "description": "A beautiful 4-bedroom house with beach access.",
+        "type": "House"
+    },
+    {
+        "id": "19",
+        "name": "Alpine Chalet",
+        "location": "Jackson Hole, WY",
+        "price": "$2,000,000",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "imageUrl": "https://via.placeholder.com/300?text=Alpine+Chalet",
+        "description": "A charming 5-bedroom chalet with mountain views.",
+        "type": "Chalet"
+    },
+    {
+        "id": "20",
+        "name": "Urban Townhouse",
+        "location": "Philadelphia, PA",
+        "price": "$650,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "imageUrl": "https://via.placeholder.com/300?text=Urban+Townhouse",
+        "description": "A spacious 3-bedroom townhouse in a vibrant neighborhood.",
+        "type": "Townhouse"
+    }
+]
