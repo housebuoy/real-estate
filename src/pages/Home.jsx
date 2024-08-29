@@ -7,8 +7,9 @@ import Testimonials from '../components/Testimonials';
 import Faqs from '../components/FAQ';
 import Cta from '../components/CTA';
 import Footer from '../components/Footer';
+import PropTypes from 'prop-types';
 
-const StatsCard = ({ number, label }) => {
+export const StatsCard = ({ number, label }) => {
   return (
     <div className="bg-[#191919] text-white px-3 py-2 rounded-lg shadow-md">
       <h3 className="text-3xl font-bold">
@@ -20,7 +21,7 @@ const StatsCard = ({ number, label }) => {
   );
 };
 
-const FeatureCard = ({ icon, title }) => {
+export const FeatureCard = ({ icon, title }) => {
   return (
     <div className="bg-nav-primary text-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center space-y-4 hover:bg-zinc-800 transition duration-300 ease-in-out">
       <div className="text-yellow-primary text-3xl">
@@ -76,4 +77,15 @@ const Home = () => {
   )
 }
 
+StatsCard.propTypes = {
+  number: PropTypes.number,
+  label: PropTypes.string,
+};
+
+FeatureCard.propTypes = {
+  icon: PropTypes.string,
+  title: PropTypes.string,
+};
+
 export default Home
+

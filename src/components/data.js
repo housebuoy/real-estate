@@ -74,6 +74,7 @@ export const housesData = [
       image: Agent1,
       name: 'Patricia Tullert',
       phone: '0123 456 78910',
+      role: 'Project Manager',
     },
   },
   {
@@ -95,6 +96,7 @@ export const housesData = [
       image: Agent2,
       name: 'Daryl Hawker',
       phone: '0123 456 78910',
+      role: 'Market Analyst',
     },
   },
   {
@@ -116,6 +118,7 @@ export const housesData = [
       image: Agent3,
       name: 'Amado Smith',
       phone: '0123 456 78910',
+      role: 'Chief Executive Officer',
     },
   },
   {
@@ -137,6 +140,7 @@ export const housesData = [
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
       phone: '0123 456 78910',
+      role: 'Attorney',
     },
   },
   {
@@ -158,6 +162,7 @@ export const housesData = [
       image: Agent5,
       name: 'Grover Robinson',
       phone: '0123 456 78910',
+      role: 'Head of Interior Designs',
     },
   },
   {
@@ -179,6 +184,7 @@ export const housesData = [
       image: Agent6,
       name: 'Karen Sorensen',
       phone: '0123 456 78910',
+      role: 'Property Manager',
     },
   },
   {
@@ -200,6 +206,7 @@ export const housesData = [
       image: Agent7,
       name: 'Jawhar Shamil Naser',
       phone: '0123 456 78910',
+      role: 'Maintainence Engineer',
     },
   },
   {
@@ -221,6 +228,7 @@ export const housesData = [
       image: Agent8,
       name: 'Juana Douglass',
       phone: '0123 456 78910',
+      role: 'Financial Analyst',
     },
   },
   {
@@ -242,6 +250,7 @@ export const housesData = [
       image: Agent9,
       name: 'Jerry Schenck',
       phone: '0123 456 78910',
+      role: 'Head of Settlement Planning',
     },
   },
   {

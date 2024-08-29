@@ -49,19 +49,16 @@ const Footer = () => {
               </NavLink>
             </li>
             <li>
-            <NavLink to="/services" 
+            <NavLink to="/ContactUs" 
                 className={({ isActive }) =>
                   isActive ?
                     'bg-[#141414] text-white px-3 py-2 rounded'
                       : 
                     'bg-opacity-0 text-white px-3 py-2 rounded hover:bg-zinc-800 '
-                }>Service
+                }>Contact Us
               </NavLink>
             </li>
           </ul>
-          <NavLink exact to='/' className='hidden lg:flex font-urbanist gap-10 text-white font-medium text-lg bg-[#141414] py-2 px-3 rounded hover:bg-zinc-800'>
-            Contact Us
-          </NavLink>
           <button onClick={toggleMenu} className='md:hidden'>
             <AiOutlineAlignRight className='text-white text-4xl'/>
           </button>      
@@ -70,7 +67,7 @@ const Footer = () => {
           <NavLink to="/" className='text-white font-urbanist font-semibold text-2xl  block mt-4 md:mt-0'>Home</NavLink>
           <NavLink to="/about" className='text-white font-urbanist font-semibold text-2xl  block mt-4 md:mt-0'>About</NavLink>
           <NavLink to="/properties" className='text-white font-urbanist font-semibold text-2xl  block mt-4 md:mt-0'>Properties</NavLink>
-          <NavLink to="/service" className='text-white font-urbanist font-semibold text-2xl  block mt-4 md:mt-0'>Service</NavLink>
+          <NavLink to="/ContactUs" className='text-white font-urbanist font-semibold text-2xl  block mt-4 md:mt-0'>Contact Us</NavLink>
         </div>
       </nav>
     </>

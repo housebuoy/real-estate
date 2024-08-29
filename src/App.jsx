@@ -4,7 +4,8 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Properties from './pages/Properties'
 import PropertiesDetails from './pages/PropertiesDetails'
-import Services from './pages/Services'
+import Contact from './pages/Contact'
+import Error404 from './pages/Error404';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/properties" element={<Properties />} />
         <Route path="/properties/:id" element={<PropertiesDetails />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/ContactUs" element={<Contact />} />
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
     </>

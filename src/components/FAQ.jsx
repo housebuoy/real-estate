@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 // Function to shuffle an array
 const shuffleArray = (array) => {
@@ -98,9 +99,11 @@ const Faqs = () => {
                     <div className="bg-nav-secondary border-[#262626] border-2 p-6 rounded-lg md:h-60  ">
                         <h3 className="text-xl font-bold mb-4 text-white">{property.heading || 'Property Name'}</h3>
                         <p className="text-white">{property.body || 'Property Description'}</p>
-                        <button className='px-3 py-2 border-[#262626] border-2  rounded text-white mt-5'>
-                            Read More
-                        </button>
+                        <Link to='/ContactUs'>
+                            <button className='px-3 py-2 border-[#262626] border-2  rounded text-white mt-5'>
+                                Learn More
+                            </button>
+                        </Link>                        
                     </div>
                 </div>
             ))}

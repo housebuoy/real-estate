@@ -1,10 +1,7 @@
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../assets/estateLogo.png'
 import { TbSend } from "react-icons/tb";
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-
-
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const Footer = () => (
     <footer className="bg-dark text-white p-6 lg:">
@@ -70,16 +67,16 @@ const Footer = () => (
                         <FaLinkedinIn className='text-3xl'/>
                     </div>
                 </Link>
-                <Link to='' className=' rounded-full w-16 h-16'>
+                <a href='https://www.instagram.com/goldfern_?igsh=YWhpdzIxOTRlYWY4' className=' rounded-full w-16 h-16'>
                     <div className="bg-nav-secondary rounded-full w-16 h-16  flex items-center justify-center">
-                        <FaXTwitter className='text-3xl'/>
+                        <FaInstagram className='text-3xl'/>
                     </div>
-                </Link>
-                <Link to='' className=' rounded-full w-16 h-16'>
+                </a>
+                <a href='https://www.instagram.com/goldfern_?igsh=YWhpdzIxOTRlYWY4' className=' rounded-full w-16 h-16'>
                     <div className="bg-nav-secondary rounded-full w-16 h-16  flex items-center justify-center">
                         <FaYoutube className='text-3xl'/>
                     </div>
-                </Link>
+                </a>
             </div>
             <div className="mt-4 font-urbanist text-center">
                 <p>@2024 goldFern. All Rights Reserved.</p>

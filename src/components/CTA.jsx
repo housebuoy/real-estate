@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom"
-import Properties from "../pages/Properties"
 
 const Cta = () => {
   return (
     <div
-        className=" bg-cover bg-center bg-['url()] w-full py-10 px-10 flex flex-col md:flex-row  items-center justify-center"
+        className=" bg-cover bg-fixed bg-center bg-['url()] w-full py-10 px-10 flex flex-col md:flex-row  items-center justify-center"
         style={{ backgroundImage: "url(/public/images/cta-banner.png)" }}
     >
          <div className="md:w-4/5">
