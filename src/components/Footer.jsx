@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom';
-import logo from '../assets/estateLogo.png'
+import logo from '../assets/estatelogo.png'
 import { TbSend } from "react-icons/tb";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
